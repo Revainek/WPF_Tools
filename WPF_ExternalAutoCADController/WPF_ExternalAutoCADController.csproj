@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <BaseOutputPath>WPF_EAC_AcadPlugin\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WPF_EAC_AcadPlugin\**" />
+    <EmbeddedResource Remove="WPF_EAC_AcadPlugin\**" />
+    <None Remove="WPF_EAC_AcadPlugin\**" />
+    <Page Remove="WPF_EAC_AcadPlugin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoCAD.NET" Version="24.0.0" />
+    <PackageReference Include="AutoCAD.NET.Core" Version="24.0.0" />
+    <PackageReference Include="AutoCAD.NET.Model" Version="24.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="WPF_EAC_AcadPlugin\WPF_EAC_AcadPlugin.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.AutoCAD.Interop">
+      <HintPath>..\..\..\Program Files\Autodesk\AutoCAD 2021\Autodesk.AutoCAD.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop.Common">
+      <HintPath>..\..\..\Program Files\Autodesk\AutoCAD 2021\Autodesk.AutoCAD.Interop.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

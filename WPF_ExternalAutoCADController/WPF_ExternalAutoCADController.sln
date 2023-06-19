@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ExternalAutoCADController", "WPF_ExternalAutoCADController.csproj", "{65D95F35-DDEE-43AE-81DA-2DCF19D6CE30}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97037F45-C60C-4BC2-927D-62B80FB787E1} = {97037F45-C60C-4BC2-927D-62B80FB787E1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_EAC_AcadPlugin", "WPF_EAC_AcadPlugin\WPF_EAC_AcadPlugin.csproj", "{97037F45-C60C-4BC2-927D-62B80FB787E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D95F35-DDEE-43AE-81DA-2DCF19D6CE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D95F35-DDEE-43AE-81DA-2DCF19D6CE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D95F35-DDEE-43AE-81DA-2DCF19D6CE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D95F35-DDEE-43AE-81DA-2DCF19D6CE30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97037F45-C60C-4BC2-927D-62B80FB787E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97037F45-C60C-4BC2-927D-62B80FB787E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97037F45-C60C-4BC2-927D-62B80FB787E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97037F45-C60C-4BC2-927D-62B80FB787E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BCCE38E-8953-41B1-9B59-1E10D9B2C528}
+	EndGlobalSection
+EndGlobal

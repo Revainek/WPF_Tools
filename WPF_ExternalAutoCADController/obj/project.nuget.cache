@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qUu+kKfWPy03C14lO4SA309wxA9+U8uJKsPQO/twTB9Z8rJva/vP5V3S+MYL+GmMa21uVfSWeEKOq+HixuntQ==",
+  "success": true,
+  "projectFilePath": "C:\\Temp_Work\\PERICAD\\WPF_ExternalAutoCADController\\WPF_ExternalAutoCADController.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\swieciak\\.nuget\\packages\\autocad.net\\24.0.0\\autocad.net.24.0.0.nupkg.sha512",
+    "C:\\Users\\swieciak\\.nuget\\packages\\autocad.net.core\\24.0.0\\autocad.net.core.24.0.0.nupkg.sha512",
+    "C:\\Users\\swieciak\\.nuget\\packages\\autocad.net.model\\24.0.0\\autocad.net.model.24.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoCAD.NET 24.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoCAD.NET",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoCAD.NET.Core 24.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoCAD.NET.Core",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoCAD.NET.Model 24.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoCAD.NET.Model",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
